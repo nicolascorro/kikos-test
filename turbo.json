@@ -1,0 +1,22 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": [
+        "apps/web/.next/**",
+        "apps/mobile/.expo/**",
+        "packages/**/dist/**"
+      ]
+    },
+
+    "lint": {
+      "outputs": []
+    },
+
+    "test": {
+      "outputs": []
+    }
+  }
+}

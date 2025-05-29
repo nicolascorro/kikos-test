@@ -1,0 +1,27 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Lockfiles
+yarn.lock
+package-lock.json
+
+# Build artifacts
+/.turbo/
+/apps/web/.next/
+/apps/mobile/.expo/
+/build/
+/dist/
+
+# Env files
+.env
+.env.*.local
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

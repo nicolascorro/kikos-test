@@ -1,0 +1,8 @@
+// apps/web/tsconfig.json (and similarly in mobile & packages)
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist"
+  },
+  "include": ["src"]
+}
