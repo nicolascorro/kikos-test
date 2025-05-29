@@ -59,8 +59,8 @@ _Total ≈ 14–16 weeks (<4 months) + buffer → realistic under 6 months._
 ## 4. Getting Started
 1. **Monorepo Initialization**  
    ```bash
-   npx create-turbo@latest cafe-delivery
-   cd cafe-delivery
+   npx create-turbo@latest super-kikos
+   cd super-kikos
    npm add -W typescript tailwindcss postcss autoprefixer
 
 2. **Supabase Setup**  
@@ -90,7 +90,7 @@ _Total ≈ 14–16 weeks (<4 months) + buffer → realistic under 6 months._
    # tailwind.config.ts → enable JIT, content paths for .tsx/.ts
 
 ## 5. Recommended Folder Structure
-    /cafe-delivery
+    /kikos
     ├── apps
     │   ├── web             # Next.js web
     │   └── mobile          # Expo React Native
